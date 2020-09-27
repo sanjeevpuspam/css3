@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* trick 1 */
+
+.parent_div {
+    width: 100%;
+    height: 100%;
+    background: #2980b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* trick 2 */
+
+.parent_div {
+    width: 100%;
+    height: 100%;
+    background: #2980b9;
+    display: grid;
+    place-items: center;
+}
+
+.child_div {
+    width: 60vh;
+    height: 60vh;
+    background: #1abc9c;
+}
