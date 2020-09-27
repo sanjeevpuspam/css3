@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Variables</title>
+    <style>
+         :root {
+            --bg-color: #000000;
+            --txt-color: white;
+        }
+        
+        div {
+            background: var(--bg-color);
+        }
+        
+        h1 {
+            color: var(--txt-color);
+        }
+        
+        h2 {
+            color: var(--txt-color);
+        }
+        
+        h3 {
+            color: var(--txt-color);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Welcome css3</h1>
+    </div>
+    <div>
+        <h2>Welcome css3</h2>
+    </div>
+    <div>
+        <h3>Welcome css3</h3>
+    </div>
+</body>
+
+</html>
