@@ -4,31 +4,21 @@
     box-sizing: border-box;
 }
 
-
-/* trick 1 */
-
 .parent_div {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background: #2980b9;
+    /* trick 1 */
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-/* trick 2 */
-
-.parent_div {
-    width: 100%;
-    height: 100%;
-    background: #2980b9;
+    /* trick 2 */
     display: grid;
     place-items: center;
 }
 
 .child_div {
-    width: 60vh;
+    width: 60vw;
     height: 60vh;
     background: #1abc9c;
 }
